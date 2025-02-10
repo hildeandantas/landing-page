@@ -1,4 +1,4 @@
-import styles from "@/app/styles/skills.module.css";
+// import styles from "@/app/styles/skills.module.css";
 import { FaPython } from "react-icons/fa";
 
 export default function Skills() {

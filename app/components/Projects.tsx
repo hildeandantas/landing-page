@@ -22,7 +22,7 @@ export default function Projects() {
     <div>
       <h1>Projetos</h1>
       <ul>
-        {repos.map((repo) => (
+        {repos.map((repo: { id: number; name: string }) => (
           <li key={repo.id}>{repo.name}</li>
         ))}
       </ul>
