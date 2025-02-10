@@ -1,0 +1,15 @@
+.textContainer {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-around;
+}
+
+.textContainer p {
+  color: #d6dae1;
+}
+.textContainer p strong {
+  color: white;
+}

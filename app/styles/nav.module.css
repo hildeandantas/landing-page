@@ -1,0 +1,36 @@
+.nav {
+  width: 100vw;
+  height: 12vh;
+  background-color: #1b1e23;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-100%);
+  animation: slideDown 1s ease-out forwards;
+  animation-delay: 2s;
+}
+
+.nav p {
+  color: white;
+  margin-left: 2rem;
+}
+
+.nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
